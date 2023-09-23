@@ -10,6 +10,7 @@
     <body>
 <center>
 <h2 style="color:#29b89c" >Color Book Management System</h2>
+<img alt="image" src="https://picomimages.s3.ap-south-1.amazonaws.com/imgn/chhathPujaBiharVillage-t.jpg">
 
         <c:url var="add_book_url" value="/addBook"/>
         <form:form action="${add_book_url}" method="post" modelAttribute="book">
