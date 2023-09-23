@@ -9,7 +9,7 @@
     </head>
     <body>
 <center>
-<h2>Add Book</h2>
+<h2>Simple Book Management System</h2>
 
         <c:url var="add_book_url" value="/addBook"/>
         <form:form action="${add_book_url}" method="post" modelAttribute="book">
